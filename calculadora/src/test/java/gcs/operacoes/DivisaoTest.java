@@ -11,7 +11,7 @@ public class DivisaoTest {
 public static OperacaoFundamental divisao;
 	
 	@Rule
-	private ExpectedException excecao = ExpectedException.none();
+	public ExpectedException excecao = ExpectedException.none();
 
 	@BeforeClass
 	public static void init() {
